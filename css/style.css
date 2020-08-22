@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    /* font-family: 'Rowdies', cursive; */
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    opacity: 0.9;
+   /* position: fixed; */
+}
+
+.imgCont {
+    margin-left: 140px;
+    height: 57px;
+}
+
+.logo {
+    width: 75px;
+    height: 57px;
+}
+
+
+.headerCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.listCont {
+    display: flex;
+    padding-right: 140px;
+}
+
+.listCont li {
+    list-style: none;
+}
+
+.listCont li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+
+.about:hover {
+    color: #E6C142;
+}
+
+.services:hover {
+    color: #E6C142;
+}
+
+.gallery:hover {
+    color: #E6C142;
+}
+
+.contact:hover {
+    color: #E6C142;
+}
+
+/* -------------------------HERO------------------------ */
+
+.hero {
+    background-image: url('../exportadoToosharp/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    height: 480px;
+    width: 100%;
+}
+
+.titleCont {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 40px;
+}
+
+.title {
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    color: white;
+    font-size: 45px;
+}
+
+.secondTitle {
+    font-family: 'Rowdies', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    text-align: end;
+    margin-top: 210px;
+}
+
+.menuCont {
+    display: none;
+}
+
+
+/* -------------------------ABOUT------------------------ */
+
+
+.description {
+    width: 100%;
+    height: 560px;
+    margin-top: 125px;
+  
+}
+
+.descriptionCont {
+    position: relative;
+    background-image: url('../exportadoToosharp/renovation-01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 10px #909090;
+
+}
+
+.descriptionTitle {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.backBottonCont {
+    position: absolute;
+    width: 100%;
+}
+
+.botton {
+    width: 100px;
+    margin-left: 140px;
+    text-align: center;
+    background-color: #E6C142;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px #909090;
+}
+
+.botton:hover {
+    background-color: #FFE488;
+}
+
+.backBotton {
+    text-decoration: none;
+    color: black;
+}
+
+.articleCont {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 90px;
+}
+
+.textCont {
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.article {
+    text-align: justify;
+    background-color: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px #909090;
+}
+
+.articleP {
+    font-size: 16px;
+}
+
+
+/* -------------------------SERVICES------------------------ */
+
+.ourServices {
+    margin-top: 140px;
+}
+
+.ourServicesCont{
+   position: relative;
+   height: 50px;
+   margin-bottom: 65px;
+   display: flex;
+   align-items: center;
+}
+
+.ourServicesTitle {
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+}
+
+.gridCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    width: auto;
+    margin-top: 40px;
+    padding-right: 140px;
+    padding-left: 140px;
+}
+
+.boxCont {
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px #909090;
+}
+
+.iconCont {
+    text-align: center;
+}
+
+.iconImg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.iconTextCont {
+    text-align: justify;
+}
+
+/* -------------------------GALLERY------------------------ */
+
+.galleryCont {
+    position: relative;
+    margin-top: 140px;
+    width: 100%;
+    background-image: url('../exportadoToosharp/renovation2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 10px #909090;
+}
+
+.galleryTitle {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+/* --- --- CAROUSEL --- --- */
+.carousel {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.carousel__contenedor {
+    position: relative;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: black;
+    opacity: 50%;
+    z-index: 1;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 100%;
+}
+
+.carousel__anterior {
+	left: 120px;
+}
+
+.carousel__siguiente {
+	right: 120px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+    text-align: center;
+    width: 350px;
+}
+
+.carousel__elemento img {
+    height: 300px;
+    width: 300px;
+}
+
+.carousel__indicadores .glider-dot {
+	background: #E6C142;
+}
+
+@media screen and (max-width: 800px) {
+
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+}
+
+/* -------------------------FOOTER------------------------ */
+
+.footerCont {
+    background-color: #E6C142;
+    width: auto;
+    height: 300px;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.footerTitle {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.infoCont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

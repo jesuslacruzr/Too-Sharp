@@ -1,0 +1,729 @@
+@media screen and (max-width: 1024px) {
+
+    .imgCont {
+        margin-left: 110px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 50px;
+    }
+
+    .listCont {
+        padding-right: 110px;
+    }
+
+    .titleCont {
+        padding-right: 110px;
+        padding-left: 110px;
+        padding-top: 0;   
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    /* -------------------------ABOUT SECTION---------------------------- */
+
+    .textCont {
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .botton {
+        margin-left: 110px;
+    }
+
+    /* -------------------------SERVICES SECTION---------------------------- */
+   
+
+    .ourServices {
+        margin-top: 280px;
+    }
+
+    .gridCont {
+    padding-right: 110px;
+    padding-left: 110px;
+    }
+
+
+    /* -------------------------GALLERY SECTION---------------------------- */
+
+    .carousel__siguiente {
+        right: 90px;
+    }
+
+    .carousel__anterior {
+        left: 90px;
+    }
+
+    /* -------------------------CONTACT SECTION---------------------------- */
+    
+
+ .footerCont {
+    padding-left: 110px;
+    padding-right: 110px;
+ }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 769px) {
+
+    .imgCont {
+        margin-left: 80px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 50px;
+    }
+
+    .listCont {
+        padding-right: 80px;
+    }
+
+    .titleCont {
+        padding-right: 80px;
+        padding-left: 80px;
+        padding-top: 0;   
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    /* -------------------------ABOUT SECTION---------------------------- */
+
+    .textCont {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .botton {
+        margin-left: 80px;
+    }
+
+    /* -------------------------SERVICES SECTION---------------------------- */
+   
+
+    .ourServices {
+        margin-top: 480px;
+    }
+
+    .gridCont {
+    padding-right: 80px;
+    padding-left: 80px;
+    grid-template-columns: 1fr 1fr;
+    }
+
+
+    /* -------------------------GALLERY SECTION---------------------------- */
+
+    .carousel__siguiente {
+        right: 90px;
+    }
+
+    .carousel__anterior {
+        left: 90px;
+    }
+
+    /* -------------------------CONTACT SECTION---------------------------- */
+    
+
+ .footerCont {
+    padding-left: 80px;
+    padding-right: 80px;
+ }
+
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .headerCont {
+        position: relative;
+    }
+
+    .linkCont {
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: -100%; 
+        width: 100%;
+        height: 500px;
+    }
+
+    .listCont {
+        display: block;
+        background: black;
+        text-align: center;
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 50px;
+        height: 100%;
+    }
+
+    .listCont li a {
+        color: white;
+        margin-left: 0px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 100px;
+      
+    }
+
+    .imgCont {
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 40px;
+    }
+
+    .menuCont {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, .8);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    #menu {
+        color: white;
+        
+    }
+
+    /* .listCont {
+        padding-right: 80px;
+    } */
+
+    .titleCont {
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 0;   
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .secondTitle {
+        font-size: 25px;
+        margin-top: 150px;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    /* -------------------------ABOUT SECTION---------------------------- */
+
+
+
+    .textCont {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .descriptionTitle {
+        font-size: 20px;
+    }
+
+    .botton {
+        margin-left: 40px;
+        width: 70px;
+    }
+
+    .backBotton {
+        font-size: 14px;
+    }
+
+    .descriptionCont {
+        height: 60px;
+    }
+
+    .articleCont {
+        top: 75px;
+    }
+
+    .article {
+        padding: 20px;
+    }
+
+    /* -------------------------SERVICES SECTION---------------------------- */
+   
+
+    .ourServices {
+        margin-top: 940px;
+    }
+
+    .ourServicesTitle {
+        font-size: 20px;
+    }
+
+    .gridCont {
+    padding-right: 40px;
+    padding-left: 40px;
+    grid-template-columns: 1fr;
+    }
+
+
+    /* -------------------------GALLERY SECTION---------------------------- */
+
+    .galleryCont {
+        height: 60px;
+    }
+
+    .galleryTitle {
+        font-size: 20px;
+    }
+
+    .carousel__siguiente {
+        right: 35px;
+    }
+
+    .carousel__anterior {
+        left: 35px;
+    }
+
+    .carousel__contenedor {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    /* -------------------------CONTACT SECTION---------------------------- */
+    
+
+ .footerCont {
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+ }
+
+ .infoCont {
+     display: block;
+     text-align: center;
+     margin-bottom: 0px;
+ }
+
+ .callEmail {
+     margin-bottom: 30px;
+ }
+
+
+}
+
+
+
+
+@media screen and (max-width: 376px) {
+
+    .headerCont {
+        position: relative;
+    }
+
+    .linkCont {
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: -100%; 
+        width: 100%;
+        height: 400px;
+    }
+
+    .listCont {
+        display: block;
+        background: black;
+        text-align: center;
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 50px;
+        height: 100%;
+    }
+
+
+    .imgCont {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .listCont li a {
+        color: white;
+        margin-left: 0px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 100px;
+      
+    }
+
+    .logo {
+        width: 50px;
+        height: 40px;
+    }
+
+    .menuCont {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, .8);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        
+    }
+
+    #menu {
+        color: white;
+        
+    }
+
+   
+
+    
+
+    /* .listCont {
+        padding-right: 80px;
+    } */
+
+    .titleCont {
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 0;   
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .secondTitle {
+        font-size: 25px;
+        margin-top: 150px;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    /* -------------------------ABOUT SECTION---------------------------- */
+
+
+    .textCont {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .descriptionTitle {
+        font-size: 20px;
+    }
+
+    .botton {
+        margin-left: 40px;
+        width: 70px;
+    }
+
+    .backBotton {
+        font-size: 14px;
+    }
+
+    .descriptionCont {
+        height: 60px;
+    }
+
+    .articleCont {
+        top: 75px;
+    }
+
+    .article {
+        padding: 20px;
+    }
+
+    /* -------------------------SERVICES SECTION---------------------------- */
+   
+
+    .ourServices {
+        margin-top: 1200px;
+    }
+
+
+    .ourServicesTitle {
+        font-size: 20px;
+    }
+
+    .gridCont {
+    padding-right: 40px;
+    padding-left: 40px;
+    grid-template-columns: 1fr;
+    }
+
+
+
+
+    /* -------------------------GALLERY SECTION---------------------------- */
+
+    .galleryCont {
+        height: 60px;
+    }
+
+    .galleryTitle {
+        font-size: 20px;
+    }
+
+    .carousel__siguiente {
+        right: 35px;
+    }
+
+    .carousel__anterior {
+        left: 35px;
+    }
+
+    .carousel__contenedor {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .carousel__elemento img {
+        height: 280px
+    }
+
+    /* -------------------------CONTACT SECTION---------------------------- */
+    
+
+ .footerCont {
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+ }
+
+ .infoCont {
+     display: block;
+     text-align: center;
+     margin-bottom: 0px;
+ }
+
+ .callEmail {
+     margin-bottom: 30px;
+ }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 321px) {
+
+    .headerCont {
+        position: relative;
+    }
+
+    .linkCont {
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: -100%; 
+        width: 100%;
+        height: 400px;
+    }
+
+    .listCont {
+        display: block;
+        background: black;
+        text-align: center;
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 50px;
+        height: 100%;
+    }
+
+
+    .imgCont {
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .listCont li a {
+        color: white;
+        margin-left: 0px;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 100px;
+      
+    }
+
+    .logo {
+        width: 50px;
+        height: 40px;
+    }
+
+    .menuCont {
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, .8);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        
+    }
+
+    #menu {
+        color: white;
+        
+    }
+
+   
+
+    
+
+    /* .listCont {
+        padding-right: 80px;
+    } */
+
+    .titleCont {
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-top: 0;   
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .secondTitle {
+        font-size: 25px;
+        margin-top: 150px;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    /* -------------------------ABOUT SECTION---------------------------- */
+
+
+    .textCont {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .descriptionTitle {
+        font-size: 20px;
+    }
+
+    .botton {
+        margin-left: 40px;
+        width: 40px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .backBotton {
+        font-size: 12px;
+    }
+
+    .descriptionCont {
+        height: 60px;
+    }
+
+    .articleCont {
+        top: 75px;
+    }
+
+    .article {
+        padding: 20px;
+    }
+
+    /* -------------------------SERVICES SECTION---------------------------- */
+   
+
+    .ourServices {
+        margin-top: 1700px;
+    }
+
+
+    .ourServicesTitle {
+        font-size: 20px;
+    }
+
+    .gridCont {
+    padding-right: 40px;
+    padding-left: 40px;
+    grid-template-columns: 1fr;
+    }
+
+
+
+
+    /* -------------------------GALLERY SECTION---------------------------- */
+
+    .galleryCont {
+        height: 60px;
+    }
+
+    .galleryTitle {
+        font-size: 20px;
+    }
+
+    .carousel__siguiente {
+        right: 35px;
+    }
+
+    .carousel__anterior {
+        left: 35px;
+    }
+
+    .carousel__contenedor {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .carousel__elemento img {
+        height: 280px
+    }
+
+    /* -------------------------CONTACT SECTION---------------------------- */
+    
+
+ .footerCont {
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+ }
+
+ .infoCont {
+     display: block;
+     text-align: center;
+     margin-bottom: 0px;
+ }
+
+ .callEmail {
+     margin-bottom: 30px;
+ }
+
+
+}
+
+
+
+
+
+
